@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckFipe</title>
+  </head>
+  <body>
+    <h1>Check Fipe</h1>
+    <div class="container-divs">
+      <input
+        class="input"
+        type="text"
+        id="parametro1"
+        placeholder="Tipo Veiculo"
+        required
+      />
+      <div class="margin-top"></div>
+      <input
+        class="input"
+        type="text"
+        id="parametro2"
+        placeholder="ID Marca"
+        required
+      />
+      <div class="margin-top"></div>
+      <input
+        class="input"
+        type="text"
+        id="parametro3"
+        placeholder="ID Modelo"
+        required
+      />
+      <div class="margin-top"></div>
+      <input
+        class="input"
+        type="text"
+        id="parametro4"
+        placeholder="ID Ano"
+        required
+      />
+      <div class="margin-top"></div>
+      <button onclick="buscar()">
+        <span>Buscar</span>
+      </button>
+      <div class="margin-top"></div>
+
+      <div class="resultados">
+        <span id="price"></span>
+        <span id="marca"></span>
+        <span id="modelo"></span>
+        <span id="anoModelo"></span>
+        <span id="combustivel"></span>
+        <span id="codeFipe"></span>
+      </div>
+    </div>
+  </body>
+</html>
